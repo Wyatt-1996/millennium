@@ -30,6 +30,10 @@
     margin-top: 3px;
 }
 
+#page-title {
+    text-align: center;
+}
+
 @media screen and (max-width: 768px) {
 
     #name {
@@ -39,5 +43,10 @@
 
     #name-li {
         width: 210px;
+    }
+
+    .jumbotron {
+        margin-left: 6px;
+        margin-right: 6px;
     }
 }
