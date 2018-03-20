@@ -1,0 +1,43 @@
+#header {
+    height: 62px;
+    background-color: #1fc21e;
+    border: none;
+    border-bottom: 3px solid black;
+    border-radius: 0px;
+}
+
+#logo-a {
+    padding: 5px;
+}
+
+#logo {
+    width: 50px;
+}
+
+#name {
+    padding: 10px;
+    padding-left: 0px;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+#name:hover {
+    color: rgb(255, 255, 111);
+}
+
+.navbar-right {
+    margin-top: 3px;
+}
+
+@media screen and (max-width: 768px) {
+
+    #name {
+        padding: 0px;
+        padding-top: 1px;
+    }
+
+    #name-li {
+        width: 210px;
+    }
+}
